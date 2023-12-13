@@ -1,35 +1,33 @@
 class Solution {
     public String reverseVowels(String s) {
-       StringBuilder sb = new StringBuilder(s);
-        String[] word = new String[s.length()];
-        word = s.split("");
+       char[] word = s.toCharArray();
         String vowels = "aeiouAEIOU";
         int start = 0;
         int end = s.length() - 1;
 
         while (start < end) {
             //when the start pointer points vowel
-            if (!vowels.contains(word[start])) {
+            if (vowels.indexOf(word[start]) == -1) {
                 start++;
             }
 
             //when the end pointer points vowel
-            if (!vowels.contains(word[end])) {
+            if (vowels.indexOf(word[end]) == -1) {
                 end--;
             }
 
-            if (start < end && vowels.contains(word[start]) && vowels.contains(word[end])) {
-                sb.replace(start, start + 1, word[end]);
-                sb.replace(end, end + 1, word[start]);
+            if (start < end && vowels.indexOf(word[start]) != -1 && vowels.indexOf(word[end]) != -1) {
+                char tmp = word[start];
+                word[start] = word[end];
+                word[end] = tmp;
                 start++;
                 end--;
             }
 
         }
 
-        System.out.println(sb.toString());
-
-       return sb.toString();
+        String ans = new String(word);
+       return ans;
         
     }
 }

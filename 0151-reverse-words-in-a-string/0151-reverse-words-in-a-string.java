@@ -1,42 +1,33 @@
 class Solution {
     public String reverseWords(String s) {
+       int n = s.length();
+
         //pointer 만들기
-        int pointer = 0;
-        List<String> list = new ArrayList<>();
+        int p1 = n - 1;
 
-        //loop until the end of String
-        while (pointer < s.length()) {
-            StringBuilder word = new StringBuilder();
+        //char[]
+        char[] chars = s.toCharArray();
 
-            //if char is not a blank, append to the word
-            if (s.charAt(pointer) != ' ') {
-                while (s.charAt(pointer) != ' ') {
-                    word.append(s.charAt(pointer));
-                    if (pointer == s.length() - 1) {
-                        break;
-
-                    }
-                    pointer++;
-                }
-                list.add(word.toString());
-            }
-
-            pointer++;
-        }
-
-
-        Collections.reverse(list);
-
+        //sb to return
         StringBuilder sb = new StringBuilder();
-       
 
-        for (int i = 0; i < list.size(); i++) {
-            sb.append(list.get(i));
-            if (i != list.size() - 1) {
-                sb.append(" ");
+        //loop to the first of the s
+        while (p1 >= 0) {
+            if (chars[p1] == ' ') {
+                p1--;
+                continue;
             }
-        }
+            //if it is not a space
+            int p2 = p1 - 1;
 
+            while (p2 >= 0 && chars[p2] != ' ') {
+                p2--;
+            }
+            sb.append(s.substring(p2 + 1, p1 + 1));
+            sb.append(' ');
+            p1 = p2 - 1;
+        }
+        sb.deleteCharAt(sb.length() - 1);
         return sb.toString();
     }
 }

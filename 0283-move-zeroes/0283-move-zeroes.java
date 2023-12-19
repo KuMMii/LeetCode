@@ -1,21 +1,14 @@
 class Solution {
     public void moveZeroes(int[] nums) {
-        int p1 = 0;
-        int p2 = 0; //zero pointer, non-zero pointer
-        int n = nums.length;
-        //loop until any pointer is at the end
-        while (p1 < n && p2 < n) {
-            while (nums[p1] != 0 && p1 < n - 1) p1++;
-            while ((nums[p2] == 0 || p1 >= p2) && p2 < n - 1) p2++;
-
-            if (nums[p1] == 0 && nums[p2] != 0) {
-                int tmp = nums[p1];
-                nums[p1] = nums[p2];
-                nums[p2] = tmp;
-
+        int snowball = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == 0) {
+                snowball++;
+            } else if (snowball > 0) {
+                int tmp = nums[i];
+                nums[i] = nums[i - snowball];
+                nums[i - snowball] = tmp;
             }
-            p1++;
-            p2++;
         }
     }
 }

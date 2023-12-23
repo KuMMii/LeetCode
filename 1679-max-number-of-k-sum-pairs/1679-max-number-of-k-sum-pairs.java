@@ -1,20 +1,24 @@
 class Solution {
     public int maxOperations(int[] nums, int k) {
         int cnt = 0;
+        Arrays.sort(nums);
 
-        int n = nums.length;
+        int i = 0;
+        int j = nums.length - 1;
 
-        for (int i = 0; i <= n - 2; i++) {
-            if (k > nums[i] && nums[i] != 0) {
-                for (int j = i + 1; j <= n - 1; j++) {
-                    if (nums[i] + nums[j] == k && nums[j] != 0) {
-                        nums[i] = 0;
-                        nums[j] = 0;
-                        cnt++;
-                        break;
-                    }
-                }
+        while (i < j) {
+            if (k <= nums[i]) break;
+            while (j > i) {
+                int sum = nums[i] + nums[j];
+                if (sum == k) {
+                    cnt++;
+                    break;
+                } else if (sum > k) j--;
+                else i++;
             }
+            i++;
+            j--;
+
         }
 
 

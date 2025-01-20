@@ -1,18 +1,14 @@
 class Solution:
     def uniqueOccurrences(self, arr: List[int]) -> bool:
-        numSet = set(arr)
         
-        s=set()
+        dic = {}
 
-        for i in numSet:
-            count=0
-            for j in arr:
-                if i == j:
-                    count+=1
-
-            if count in s:
-                return False
-            s.add(count)
-        return True
+        for i in arr:
+            if i in dic:
+                dic[i]+=1
+            else:
+                dic[i]=1
+        
+        return len(set(dic.values()))==len(set(arr))
 
         

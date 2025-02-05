@@ -1,22 +1,19 @@
 class Solution:
     def equalPairs(self, grid: List[List[int]]) -> int:
-        cnt = 0
-        N = len(grid)
-        revGrid=[]
-        # make a new 2d array row and col is reversed
+        # make a hashmap
+        m = defaultdict(int)
+        cnt=0
+
+        # convert the rows to key(String) and make the value to 1
+        for row in grid:
+            m[str(row)]+=1
+
+        # convert the rows and add value to count
+        N=len(grid)
         for c in range(N):
-            tmp=[]
+            col=[]
             for r in range(N):
-                tmp.append(grid[r][c])
-            revGrid.append(tmp)
-        
-        # compare
-        for g in revGrid:
-            if g in grid:
-                cnt+=grid.count(g)
-        
+                col.append(grid[r][c])
+            cnt+=m[str(col)]
+
         return cnt
-        
-
-
-        

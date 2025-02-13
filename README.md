@@ -45,6 +45,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/KuMMii/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0394-decode-string](https://github.com/KuMMii/LeetCode/tree/master/0394-decode-string) |
 | [0735-asteroid-collision](https://github.com/KuMMii/LeetCode/tree/master/0735-asteroid-collision) |
 | [2470-removing-stars-from-a-string](https://github.com/KuMMii/LeetCode/tree/master/2470-removing-stars-from-a-string) |
@@ -56,4 +57,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0394-decode-string](https://github.com/KuMMii/LeetCode/tree/master/0394-decode-string) |
+## Tree
+|  |
+| ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/KuMMii/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
+## Depth-First Search
+|  |
+| ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/KuMMii/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
+## Binary Tree
+|  |
+| ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/KuMMii/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
 <!---LeetCode Topics End-->

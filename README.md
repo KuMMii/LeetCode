@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/KuMMii/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0200-number-of-islands](https://github.com/KuMMii/LeetCode/tree/master/0200-number-of-islands) |
 | [0735-asteroid-collision](https://github.com/KuMMii/LeetCode/tree/master/0735-asteroid-collision) |
 | [1319-unique-number-of-occurrences](https://github.com/KuMMii/LeetCode/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/KuMMii/LeetCode/tree/master/1392-find-the-difference-of-two-arrays) |
@@ -35,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/KuMMii/LeetCode/tree/master/0200-number-of-islands) |
 | [2428-equal-row-and-column-pairs](https://github.com/KuMMii/LeetCode/tree/master/2428-equal-row-and-column-pairs) |
 ## Simulation
 |  |
@@ -65,8 +67,17 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/KuMMii/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
+| [0200-number-of-islands](https://github.com/KuMMii/LeetCode/tree/master/0200-number-of-islands) |
 ## Binary Tree
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/KuMMii/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/KuMMii/LeetCode/tree/master/0200-number-of-islands) |
+## Union Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/KuMMii/LeetCode/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->

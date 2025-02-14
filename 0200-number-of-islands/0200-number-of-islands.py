@@ -12,12 +12,12 @@ class Solution:
         for r in range(R):
             for c in range(C):
                 if not visited[r][c] and grid[r][c]=="1":
-                    self.BFS(r, c, grid)
+                    self.DFS(r, c, grid)
                     ans+=1
 
         return ans
     
-    def BFS(self, r: int, c: int, grid: List[List[str]]):
+    def DFS(self, r: int, c: int, grid: List[List[str]]):
         row=[-1, 1, 0, 0]
         col=[0,0,-1,1]
 
@@ -25,4 +25,4 @@ class Solution:
         for i in range(4):
             nr, nc =r+row[i], c+col[i]
             if (0<=nr<R and 0<=nc<C) and not visited[nr][nc] and grid[nr][nc]=="1":
-                self.BFS(nr, nc, grid)
+                self.DFS(nr, nc, grid)

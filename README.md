@@ -92,4 +92,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0969-number-of-recent-calls](https://github.com/KuMMii/LeetCode/tree/master/0969-number-of-recent-calls) |
+## Database
+|  |
+| ------- |
+| [0595-big-countries](https://github.com/KuMMii/LeetCode/tree/master/0595-big-countries) |
 <!---LeetCode Topics End-->

@@ -58,6 +58,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Recursion
 |  |
 | ------- |
+| [0206-reverse-linked-list](https://github.com/KuMMii/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0394-decode-string](https://github.com/KuMMii/LeetCode/tree/master/0394-decode-string) |
 ## Tree
 |  |
@@ -97,4 +98,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0595-big-countries](https://github.com/KuMMii/LeetCode/tree/master/0595-big-countries) |
 | [1153-product-sales-analysis-i](https://github.com/KuMMii/LeetCode/tree/master/1153-product-sales-analysis-i) |
+## Linked List
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/KuMMii/LeetCode/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->

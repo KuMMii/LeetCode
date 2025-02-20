@@ -1,17 +1,15 @@
 from collections import deque
 class Solution:
-    # BFS
+    # Iterative DFS
     def maxDepth(self, root: Optional[TreeNode]) -> int:
-        q=deque()
-        if root:
-            q.append(root)
-        cnt=0
-        while q:
-            for i in range(len(q)):
-                n=q.popleft()
-                if n.left:
-                    q.append(n.left)
-                if n.right:
-                    q.append(n.right)
-            cnt+=1
-        return cnt
+        stack=[[root,1]]
+        level=0
+
+        while stack:
+            n,d=stack.pop()
+            
+            if n:
+                level=max(level,d)
+                stack.append([n.left,d+1])
+                stack.append([n.right,d+1])
+        return level

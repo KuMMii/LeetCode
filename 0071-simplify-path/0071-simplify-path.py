@@ -5,7 +5,8 @@ class Solution:
         ans=''
         for p in paths:
             if p=='..':
-                if stack: stack.pop()
+                if stack: 
+                    stack.pop()
             elif p!='.':
                 stack.append(p)
 
@@ -14,3 +15,5 @@ class Solution:
         for p in stack:
             ans+='/'+p
         return ans
+        # return '/'+'/'.join(stack)
+        # this one looks more cool but it's more time consuming

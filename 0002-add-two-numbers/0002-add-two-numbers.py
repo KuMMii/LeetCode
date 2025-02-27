@@ -1,17 +1,18 @@
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
-        s1, s2='',''
-        while l1:
-            s1=str(l1.val)+s1
-            l1=l1.next
-        while l2:
-            s2=str(l2.val)+s2
-            l2=l2.next
-        s=str(int(s1)+int(s2))
-        
-        curr=ListNode(int(s[0]))
-        for i in s[1::]:
-            n=ListNode(int(i))
-            n.next=curr
-            curr=n
-        return curr
+        ll=ListNode()
+        cur=ll
+        carry=0
+        while l1 or l2 or carry:
+            n1 = l1.val if l1 else 0
+            n2 = l2.val if l2 else 0
+
+            val=n1+n2+carry
+            carry=val//10
+            val=val%10
+            cur.next=ListNode(val)
+            
+            cur=cur.next
+            l1=l1.next if l1 else None
+            l2=l2.next if l2 else None
+        return ll.next

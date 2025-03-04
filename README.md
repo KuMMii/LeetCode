@@ -23,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/KuMMii/LeetCode/tree/master/0022-generate-parentheses) |
 | [0071-simplify-path](https://github.com/KuMMii/LeetCode/tree/master/0071-simplify-path) |
 | [0394-decode-string](https://github.com/KuMMii/LeetCode/tree/master/0394-decode-string) |
 | [1777-determine-if-two-strings-are-close](https://github.com/KuMMii/LeetCode/tree/master/1777-determine-if-two-strings-are-close) |
@@ -57,6 +58,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/KuMMii/LeetCode/tree/master/0022-generate-parentheses) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/KuMMii/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 ## Recursion
 |  |
@@ -135,4 +137,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/KuMMii/LeetCode/tree/master/0002-add-two-numbers) |
+## Backtracking
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/KuMMii/LeetCode/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->

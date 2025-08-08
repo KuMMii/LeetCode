@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/KuMMii/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/KuMMii/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/KuMMii/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0200-number-of-islands](https://github.com/KuMMii/LeetCode/tree/master/0200-number-of-islands) |
@@ -25,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/KuMMii/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/KuMMii/LeetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/KuMMii/LeetCode/tree/master/0022-generate-parentheses) |
 | [0071-simplify-path](https://github.com/KuMMii/LeetCode/tree/master/0071-simplify-path) |
@@ -163,4 +165,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0374-guess-number-higher-or-lower](https://github.com/KuMMii/LeetCode/tree/master/0374-guess-number-higher-or-lower) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/KuMMii/LeetCode/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->

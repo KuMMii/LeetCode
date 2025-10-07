@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0014-longest-common-prefix](https://github.com/KuMMii/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/KuMMii/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/KuMMii/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/KuMMii/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0200-number-of-islands](https://github.com/KuMMii/LeetCode/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/KuMMii/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0735-asteroid-collision](https://github.com/KuMMii/LeetCode/tree/master/0735-asteroid-collision) |
@@ -58,6 +59,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0071-simplify-path](https://github.com/KuMMii/LeetCode/tree/master/0071-simplify-path) |
 | [0094-binary-tree-inorder-traversal](https://github.com/KuMMii/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/KuMMii/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0394-decode-string](https://github.com/KuMMii/LeetCode/tree/master/0394-decode-string) |
 | [0735-asteroid-collision](https://github.com/KuMMii/LeetCode/tree/master/0735-asteroid-collision) |
 | [2470-removing-stars-from-a-string](https://github.com/KuMMii/LeetCode/tree/master/2470-removing-stars-from-a-string) |
@@ -144,6 +146,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/KuMMii/LeetCode/tree/master/0002-add-two-numbers) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/KuMMii/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 ## Backtracking
 |  |
 | ------- |

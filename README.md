@@ -127,6 +127,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0595-big-countries](https://github.com/KuMMii/LeetCode/tree/master/0595-big-countries) |
 | [1153-product-sales-analysis-i](https://github.com/KuMMii/LeetCode/tree/master/1153-product-sales-analysis-i) |
 | [1509-replace-employee-id-with-the-unique-identifier](https://github.com/KuMMii/LeetCode/tree/master/1509-replace-employee-id-with-the-unique-identifier) |
+| [1724-customer-who-visited-but-did-not-make-any-transactions](https://github.com/KuMMii/LeetCode/tree/master/1724-customer-who-visited-but-did-not-make-any-transactions) |
 ## Linked List
 |  |
 | ------- |

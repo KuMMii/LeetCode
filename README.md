@@ -15,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0283-move-zeroes](https://github.com/KuMMii/LeetCode/tree/master/0283-move-zeroes) |
 | [0735-asteroid-collision](https://github.com/KuMMii/LeetCode/tree/master/0735-asteroid-collision) |
 | [1319-unique-number-of-occurrences](https://github.com/KuMMii/LeetCode/tree/master/1319-unique-number-of-occurrences) |
+| [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/KuMMii/LeetCode/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/KuMMii/LeetCode/tree/master/1392-find-the-difference-of-two-arrays) |
 | [2428-equal-row-and-column-pairs](https://github.com/KuMMii/LeetCode/tree/master/2428-equal-row-and-column-pairs) |
 ## Hash Table
@@ -34,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/KuMMii/LeetCode/tree/master/0022-generate-parentheses) |
 | [0071-simplify-path](https://github.com/KuMMii/LeetCode/tree/master/0071-simplify-path) |
 | [0394-decode-string](https://github.com/KuMMii/LeetCode/tree/master/0394-decode-string) |
+| [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/KuMMii/LeetCode/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1777-determine-if-two-strings-are-close](https://github.com/KuMMii/LeetCode/tree/master/1777-determine-if-two-strings-are-close) |
 | [2470-removing-stars-from-a-string](https://github.com/KuMMii/LeetCode/tree/master/2470-removing-stars-from-a-string) |
 ## Sorting
@@ -164,6 +166,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/KuMMii/LeetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/KuMMii/LeetCode/tree/master/0022-generate-parentheses) |
+| [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/KuMMii/LeetCode/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -184,4 +187,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/KuMMii/LeetCode/tree/master/0014-longest-common-prefix) |
+## Bit Manipulation
+|  |
+| ------- |
+| [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/KuMMii/LeetCode/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
 <!---LeetCode Topics End-->

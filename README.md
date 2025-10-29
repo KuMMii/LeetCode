@@ -26,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1319-unique-number-of-occurrences](https://github.com/KuMMii/LeetCode/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/KuMMii/LeetCode/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1777-determine-if-two-strings-are-close](https://github.com/KuMMii/LeetCode/tree/master/1777-determine-if-two-strings-are-close) |
+| [2406-decode-the-message](https://github.com/KuMMii/LeetCode/tree/master/2406-decode-the-message) |
 | [2428-equal-row-and-column-pairs](https://github.com/KuMMii/LeetCode/tree/master/2428-equal-row-and-column-pairs) |
 ## String
 |  |
@@ -39,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1297-maximum-number-of-balloons](https://github.com/KuMMii/LeetCode/tree/master/1297-maximum-number-of-balloons) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/KuMMii/LeetCode/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1777-determine-if-two-strings-are-close](https://github.com/KuMMii/LeetCode/tree/master/1777-determine-if-two-strings-are-close) |
+| [2406-decode-the-message](https://github.com/KuMMii/LeetCode/tree/master/2406-decode-the-message) |
 | [2470-removing-stars-from-a-string](https://github.com/KuMMii/LeetCode/tree/master/2470-removing-stars-from-a-string) |
 ## Sorting
 |  |
